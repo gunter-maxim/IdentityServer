@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Quickstart\Account\AccountController.cs" />
+    <Content Include="Quickstart\Account\AccountOptions.cs" />
+    <Content Include="Quickstart\Account\ExternalProvider.cs" />
+    <Content Include="Quickstart\Account\LoggedOutViewModel.cs" />
+    <Content Include="Quickstart\Account\LoginInputModel.cs" />
+    <Content Include="Quickstart\Account\LoginViewModel.cs" />
+    <Content Include="Quickstart\Account\LogoutInputModel.cs" />
+    <Content Include="Quickstart\Account\LogoutViewModel.cs" />
+    <Content Include="Quickstart\Consent\ConsentController.cs" />
+    <Content Include="Quickstart\Consent\ConsentInputModel.cs" />
+    <Content Include="Quickstart\Consent\ConsentOptions.cs" />
+    <Content Include="Quickstart\Consent\ConsentViewModel.cs" />
+    <Content Include="Quickstart\Consent\ProcessConsentResult.cs" />
+    <Content Include="Quickstart\Consent\ScopeViewModel.cs" />
+    <Content Include="Quickstart\Diagnostics\DiagnosticsController.cs" />
+    <Content Include="Quickstart\Diagnostics\DiagnosticsViewModel.cs" />
+    <Content Include="Quickstart\Grants\GrantsController.cs" />
+    <Content Include="Quickstart\Grants\GrantsViewModel.cs" />
+    <Content Include="Quickstart\Home\ErrorViewModel.cs" />
+    <Content Include="Quickstart\Home\HomeController.cs" />
+    <Content Include="Quickstart\SecurityHeadersAttribute.cs" />
+    <Content Include="Quickstart\TestUsers.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\site.css" />
+    <None Include="wwwroot\css\site.less" />
+    <None Include="wwwroot\css\site.min.css" />
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\icon.jpg" />
+    <None Include="wwwroot\icon.png" />
+    <None Include="wwwroot\js\signout-redirect.js" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\jquery\jquery.js" />
+    <None Include="wwwroot\lib\jquery\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>
